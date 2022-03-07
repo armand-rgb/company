@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700"
+    rel="stylesheet"
+  />
+<link rel="stylesheet" href="projet.css">
+
+</head>
+<body>
+  <div class="containere">
+    <h1>welcome in your restauration planning</h1>
+  </div>
+  <script src="projet.js"></script>
+  <div id="container">
+    <header>
+      <input type="text" placeholder="Entrez vos choies..." id="item" />
+      <button id="add">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+          ></path>
+        </svg>
+      </button>
+    </header>
+
+    <h2>listes des taches ajoutes </h2>
+    <ul class="todo" id="todo"></ul>
+    <h2>liste des taches choisies</h2>
+    <ul class="completed" id="completed"></ul>
+    
+    
+  </div>
+  <ul class="todo" id="todo">
+    <li>
+
+      <span class="buttons">
+        <button class="remove"></button>
+        <button class="complete"></button>
+      </span>
+    </li>
+  </ul>
+  
+</body>
+</html>
